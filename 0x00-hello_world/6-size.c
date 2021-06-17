@@ -1,6 +1,6 @@
 /*
  * File: 6-size.c
- * Auth: Maria Florencia Soca 
+ * Auth: Brennan D Baraban
  */
 
 #include <stdio.h>
