@@ -1,6 +1,6 @@
 /*
  * File: 101-quote.c
- * Auth: Maria Florencia Soca 
+ * Auth: Maria Florencia Soca
  */
 
 #include <unistd.h>
