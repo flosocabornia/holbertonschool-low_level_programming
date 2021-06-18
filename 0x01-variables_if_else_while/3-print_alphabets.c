@@ -2,7 +2,7 @@
 
 /**
  * main - main function
- * Description:printing alphabets in lowercase
+ * Description:printing alphabets
  * Return: Return
  */
 int main(void)
