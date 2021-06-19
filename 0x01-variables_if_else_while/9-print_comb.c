@@ -1,19 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - main function
- *
- * Return: 0
- */
+* main - prints single digit numbers
+*
+* Return: 0 always
+*/
+
 int main(void)
 {
-	int i = 0;
+	int ascii;
 
-	for (i = 10; i < 99; i++)
+	for (ascii = 48; ascii < 58; ascii++)
 	{
-		putchar(i);
-		putchar(',');
+		putchar(ascii);
+		if (ascii < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
 	putchar('\n');
 	return (0);
 }
