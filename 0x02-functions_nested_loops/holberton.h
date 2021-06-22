@@ -1,5 +1,5 @@
 #define HOLBERTON_H
-int _putchar(int x, char c)
+int _putchar
 
 /* _putchar.c */
 int _putchar(char c);
