@@ -3,7 +3,7 @@
  * Auth: Florencia Soca
  */
 
-#include <stdio.h>
+#include "holberton.h"
 
 /**
  * main - Write a program that prints Holberton, followed by a new line
