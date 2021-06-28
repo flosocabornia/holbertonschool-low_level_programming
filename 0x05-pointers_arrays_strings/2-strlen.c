@@ -3,25 +3,21 @@
  * Auth: Florencia Soca
  */
 #include "holberton.h"
+
+/**
+* 2-starlen.c -a function that returns the length of a string
+* @s: puntero
+* Return: (0)
+*/
 int _strlen(char *s);
-int main() {
-   char str[100];
-   int len;
-   
-   printf("\nEnter string : ");
-   gets(str);
-   
-   len = stringLengthUsingPointer(str);
-   printf("The length of the string %s is : %d", str, len);
-   return 0;
-}
- 
-int stringLengthUsingPointer(char*p) /* p=&str[0] */
-{
-   int count = 0;
-   while (*p != '\0') {
-      count++;
-      p++;
-   }
-   return count;
+int len1, len2;
+
+char string1[] = "Hello";
+char string2[] = {'c', 'o', 'm', 'p', 'u', 't', 'e', 'r', '\0'};
+
+len1 = strlen(string1);
+len2 = strlen(string2);
+
+printf("Length of string1 is: %d \n", len1);
+printf("Length of string2 is: %d \n", len2);
 }
