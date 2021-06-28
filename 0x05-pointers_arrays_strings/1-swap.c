@@ -1,7 +1,3 @@
-/*
- * File: 1-swap.c
- * Auth: Florencia Soca
- */
 #include "holberton.h"
 /**
 *swap_int - swaps the values of two integers.
@@ -11,8 +7,8 @@
 */
 void swap_int(int *a, int *b);
 {
-
-	int n = *a;
-	*a = *b;
-	*b = n;
+int temp;
+	temp = *b;
+	*b = *a;
+	*a = temp;
 }
