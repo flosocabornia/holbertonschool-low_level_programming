@@ -5,7 +5,7 @@
 #include "holberton.h"
 
 /**
-* 2-starlen.c -a function that returns the length of a string
+* _strlen -a function that returns the length of a string
 * @s: puntero
 * Return: String length
 */
