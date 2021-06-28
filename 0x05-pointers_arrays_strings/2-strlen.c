@@ -11,12 +11,16 @@
 */
 int _strlen(char *s);
 {
-char a[20] = "Program";
-char b[20] = {'P', 'r', 'o', 'g', 'r', 'a', 'm', '\0'};
+char s[1000];
+int c = 0;
 
-printf("Length of string a = %zu \n", strlen(a));
-printf("Length of string b = %zu \n", strlen(b));
+printf("Input a string\n");
+gets(s);
 
-}
+while (s[c] != '\0')
+c++;
+
+printf("Length of the string: %d\n", c);
+
 return (0);
 }
