@@ -8,16 +8,21 @@
 * Return: a pointer to the resulting string dest
 */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-int i, j, k;
+	int dlen = 0, i;
 
-i = 0, j = 0;
-while (dest[i] != '\0')
-i++;
-while (src[j] != '\0')
-j++;
-for (k = 0; k <= j; k++, i++)
-dest[i] = src[k];
-return (dest);
+	while (dest[dlen])
+	{
+		dlen++;
+	}
+
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[dlen] = src[i];
+		dlen++;
+	}
+
+	dest[dlen] = '\0';
+	return (dest);
 }
