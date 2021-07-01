@@ -10,13 +10,11 @@
 
 char *_strcat(char *dest, char *src);
 {
-int a, b;
+int i = 0, j = 0;
 
-a = 0, b = 0;
-
-while (dest[a])
-a++;
-while (src[b])
-dest[a++] = src[b++];
+while (dest[i])
+i++;
+while (src[j])
+dest[i++] = src[j++];
 return (dest);
 }
