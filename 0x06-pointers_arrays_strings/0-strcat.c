@@ -7,15 +7,16 @@
 *
 * Return: a pointer to the resulting string dest
 */
+
 char *_strcat(char *dest, char *src);
 {
 int a, b;
 
 a = 0, b = 0;
 
-while (dest[i])
-i++;
-while (src[j])
-dest [i++] = src [j++];
+while (dest[a])
+a++;
+while (src[b])
+dest[a++] = src[b++];
 return (dest);
 }
