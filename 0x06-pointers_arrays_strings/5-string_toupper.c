@@ -10,14 +10,14 @@ char *string_toupper(char *p)
 {
 int i = 0;
 
-while (s[i] != '\0')
+while (p[i] != '\0')
 {
-if (s[i] >= 'a' && s[i] <= 'z')
+if (p[i] >= 'a' && p[i] <= 'z')
 {
-s[i] = s[i] - 32;
+p[i] = p[i] - 32;
 }
 i++;
 }
 
-return (s);
+return (p);
 }
